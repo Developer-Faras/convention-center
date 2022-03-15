@@ -1,0 +1,69 @@
+@import './config';
+
+// header
+#main-header{
+    .navbar-brand{
+        font-size: 22px;
+        font-family: $popins;
+        font-weight: 600;
+        color: #3E3E3E;
+    }
+    .nav-link{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $popins;
+        color: #3E3E3E;
+        margin: 0 0.3rem;
+    }
+}
+
+// Hero
+#hero{
+    .carousel-item{
+        .carousel-caption{
+            padding-left: 7rem;
+            padding-right: 7rem;
+
+            .title{
+                font-size: 48px;
+                font-weight: 600;
+                font-family: $popins;
+                line-height: 62px;
+                color: $white;
+                margin-bottom: 1rem;
+            }
+
+            .dec{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "Poppins", sans-serif;
+                color: #fff;
+                letter-spacing: 0.3px;
+                word-spacing: 3px;
+                line-height: 28px;
+            }
+
+            a.btn{
+                width: 160px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                background-color: #fff;
+                font-family: $popins;
+                color: #3F87F5;
+                font-weight: 600;
+                font-family: $popins;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    color: #126ffa;
+                }
+            }
+        }
+        
+    }
+}
